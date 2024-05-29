@@ -10,16 +10,14 @@ type Token struct {
 const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
-
-	IDENT = "IDENT"
-	INT   = "INT"
+	IDENT   = "IDENT"
+	INT     = "INT"
 
 	ASSIGN = "="
 	PLUS   = "+"
 	MINUS  = "-"
 
-	BANG = "!"
-
+	BANG  = "!"
 	SLASH = "/"
 	STAR  = "*"
 
@@ -33,6 +31,7 @@ const (
 	LBRACE = "{"
 	RBRACE = "}"
 
+	//keyworkds
 	FUNCTION  = "FUNCTION"
 	RETURN    = "RETURN"
 	LET       = "LET"
