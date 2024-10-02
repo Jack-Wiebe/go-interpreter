@@ -2,6 +2,8 @@ package ast
 
 import "monkey/token"
 
+//AST - Abstract Syntax Tree
+
 type Node interface {
 	TokenLiteral() string
 }
